@@ -5,10 +5,10 @@ These are the preprocessed files from the IWSLT dataset for de-en and en-de I us
 
 For other language pairs, you need to create similarly named files of the following formart:
 
-- test.<src>-<trg>.<src>
-- test.<trg>-<src>.<trg>
-- val.<src>-<trg>.<src>
-- val.<trg>-<src>.<trg>
+- test.\<src\>-\<trg\>.\<src\>
+- test.\<trg\>-\<src\>.\<trg\>
+- val.\<src\>-\<trg\>.\<src\>
+- val.\<trg\>-\<src\>.\<trg\>
 
 
 In ../jupyter_notebooks/SentencePieceEncoding.ipynb there is the code I used to produce the files here. They might be useful for repeating the process on other language pairs. The function is merge_iwslt_bitext(...), where ... are the arguments. Requires jupyter and Python3 to run. 
