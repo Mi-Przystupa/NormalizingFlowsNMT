@@ -1,9 +1,9 @@
 # Data Files
 
-These are the preprocessed files from the IWSLT dataset for de-en and en-de I used to evaluate model performance. You need to copy them into the .data directory that gets created from TorchText in order to run the code.
+These are the preprocessed files from the IWSLT dataset for de-en and en-de I used to evaluate model performance. You need to copy them into the .data/\<src\>-\<trg\> directory that gets created from TorchText in order to run the code.
 
 
-For other language pairs, you need to create similarly named files of the following formart:
+For other language pairs, you need to create similarly named files of the following format:
 
 - test.\<src\>-\<trg\>.\<src\>
 - test.\<trg\>-\<src\>.\<trg\>
